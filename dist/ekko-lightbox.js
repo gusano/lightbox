@@ -615,7 +615,7 @@ var Lightbox = (function ($) {
 				}
 
 				this._$lightboxContainer.css('height', maxHeight);
-				this._$modalDialog.css('width', 'auto').css('maxWidth', width);
+				this._$modalDialog.css('flex', '1').css('maxWidth', width);
 
 				var modal = this._$modal.data('bs.modal');
 				if (modal) {
